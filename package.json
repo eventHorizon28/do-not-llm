@@ -1,6 +1,6 @@
 {
   "name": "do-not-llm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Avoid unnecessary LLM calls by handling simple/repetitive user queries locally",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -34,8 +34,8 @@
     "middleware",
     "typescript",
     "performance",
-	"cost",
-	"latency",
+    "cost",
+    "latency",
     "llm-optimization",
     "caching",
     "llm-cache",
