@@ -1,7 +1,7 @@
 {
   "name": "do-not-llm",
   "version": "0.1.0",
-  "description": "Fast deterministic routing for intercepting trivial requests before they reach an LLM.",
+  "description": "Avoid unnecessary LLM calls by handling simple/repetitive user queries locally",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -33,9 +33,19 @@
     "routing",
     "middleware",
     "typescript",
-    "performance"
+    "performance",
+	"cost",
+	"latency",
+    "llm-optimization",
+    "caching",
+    "llm-cache",
+    "request-filtering"
   ],
   "author": "Kshitij Bafna",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eventHorizon28/do-not-llm"
+  },
   "license": "MIT",
   "devDependencies": {
     "tsup": "^8.5.0",

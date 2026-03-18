@@ -1,6 +1,11 @@
 # do-not-llm
 
-`do-not-llm` is a small TypeScript router that intercepts trivial requests before they reach an LLM. It is built for deterministic rule ordering, fast synchronous matching, and a narrow public API.
+`do-not-llm` is a small TypeScript router that intercepts and handles simple or repetitive queries before they reach an LLM, reducing latency and cost.
+
+Useful for:
+- Caching predictable responses
+- Handling FAQs
+- Avoiding redundant LLM calls
 
 ## Features
 
